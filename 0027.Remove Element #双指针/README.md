@@ -17,7 +17,8 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 ```
 
 # 解题思路
-
+设定快慢两根指针，快指针依次遍历，并将其所指值赋给慢指针所指值然后慢指针右移一位， 但是遇到指定值val时， 慢指针不动，快指针继续遍历跳过该元素。
+用非指定元素依次覆盖原有元素，最后返回慢指针。
 
 
 # 代码
