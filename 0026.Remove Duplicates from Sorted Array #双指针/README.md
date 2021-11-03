@@ -17,7 +17,8 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 ```
 # 解题思路
 ![动画](https://user-images.githubusercontent.com/54204224/139885204-6214699c-dd5f-48d7-85f1-6337f3cafc8e.gif)
-
+利用紧邻的两根快指针，从左向右依次遍历，重复元素跳过，两根快指针所指元素不同时，慢指针右移一位并且将新元素记录下来。
+不创建新的空间，用快指针找出的元素覆盖原本元素。
 
 
 # 代码
