@@ -25,16 +25,14 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
-        if (nums.empty) return 0;
+        if (nums.empty()) return 0;
         int slow = 0;
-        for(int fast = 0; fast < nums.size; fast++){
-            if(nums[fast] = val){
-                nums[fast] = nums[fast+1];
-                slow++;
+        for(int fast = 0; fast < nums.size(); fast++){
+            if(nums[fast] != val){
+                nums[slow++] = nums[fast];
             }
         }
-        return slow+1;
-
+        return slow;
     }
 };
 ```
