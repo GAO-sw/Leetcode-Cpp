@@ -21,7 +21,8 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 
 
 # 代码
-```class Solution {
+```
+class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
         if (nums.empty()) return 0; 
