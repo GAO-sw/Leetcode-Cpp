@@ -21,4 +21,20 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 
 
 # 代码
+```
+class Solution {
+public:
+    int removeElement(vector<int>& nums, int val) {
+        if (nums.empty) return 0;
+        int slow = 0;
+        for(int fast = 0; fast < nums.size; fast++){
+            if(nums[fast] = val){
+                nums[fast] = nums[fast+1];
+                slow++;
+            }
+        }
+        return slow+1;
 
+    }
+};
+```
