@@ -13,6 +13,10 @@ Explanation: [4,9] is also accepted.
 # 解题思路
 
 https://leetcode-cn.com/problems/intersection-of-two-arrays/solution/pai-xu-shuang-zhi-zhen-yi-ci-bian-li-by-solitary-s/
+
+
+runtime beats 89.43%
+memory usage beats 90.58%
 # 代码
 ```
 class Solution {
